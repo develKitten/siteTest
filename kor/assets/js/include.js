@@ -14,11 +14,11 @@ function loadComponent(selector, filePath, callback) {
 }
 
 // Navigation
-loadComponent("#nav-container", "components/nav.html", () => {
+loadComponent("#nav-container", "/kor/components/nav.html", () => {
     const script = document.createElement("script");
-    script.src = "assets/js/nav.js";
+    script.src = "/kor/assets/js/nav.js";
     document.body.appendChild(script);
 });
 
 // Footer
-loadComponent("#footer-container", "components/footer.html");
+loadComponent("#footer-container", "/kor/components/footer.html");

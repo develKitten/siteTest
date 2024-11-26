@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMISOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="/kor/assets/css/base/common.css" rel="stylesheet">
+    <link href="/kor/assets/css/pages/product.css" rel="stylesheet">
+    <link href="/kor/assets/css/layout/nav.css" rel="stylesheet">
+    <link href="/kor/assets/css/layout/footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 네비게이션 -->
+    <div id="nav-container"></div>
+
+    <!-- 경로와 제목 표시 -->
+    <section class="breadcrumb">
+        <p>제품안내 &gt; 부품사업부</p>
+        <h1>제품안내</h1>
+    </section>
+
+    <!-- 본문 내용 -->
+    <div class="product-page-container">
+
+        <!-- 카테고리 전환 버튼 -->
+        <div class="category-switch">
+            <button id="partsBtn" class="active">부품사업부</button>
+            <button id="equipmentBtn">장비사업부</button>
+        </div>
+    
+        <!-- 제품 목록 슬라이드 -->
+        <div class="product-carousel-wrapper">
+            <button class="carousel-control prev">&#9664;</button>
+            <div class="product-carousel">
+                <div class="product-container" id="productContainer"></div>
+            </div>
+            <button class="carousel-control next">&#9654;</button>
+        </div>
+    
+        <!-- 제품 상세 정보 -->
+        <div class="product-details">
+            <div class="product-features">
+                <h2>Heat Exchanger & Chemical Circulator</h2>
+                <h3>향온조</h3>
+                <div class="product-images">
+                    <img src="/kor/assets/img/product/그림1.png" alt="Heat Exchanger & Chemical Circulator">
+                </div>
+                <div class="product-content">
+                    <h2>특징</h2>
+                    <br>
+                    <p>• 반도체 공정에 사용되는 약액 온도제어를 목표로 국산화.</p>
+                    <p>• 외산 장비를 대체하기 위한 제품으로 개발.</p>
+                    <p>• 핵심부품에 대해 개발, 국산화 및 적용</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="/kor/assets/js/include.js"></script>
+    <script src="/kor/assets/js/pages/product-parts.js"></script>
+</body>
+
+</html>

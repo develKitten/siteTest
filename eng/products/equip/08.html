@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMISOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="/eng/assets/css/base/common.css" rel="stylesheet">
+    <link href="/eng/assets/css/pages/product.css" rel="stylesheet">
+    <link href="/eng/assets/css/layout/nav.css" rel="stylesheet">
+    <link href="/eng/assets/css/layout/footer.css" rel="stylesheet">
+</head>
+
+<body>
+     <!-- 네비게이션 -->
+     <div id="nav-container"></div>
+
+    <!-- 경로와 제목 표시 -->
+    <section class="breadcrumb">
+        <p>Products &gt; Equipment</p>
+        <h1>Our Products</h1>
+    </section>
+
+    <!-- 본문 내용 -->
+    <div class="product-page-container">
+
+        <!-- 카테고리 전환 버튼 -->
+        <div class="category-switch">
+            <button id="partsBtn">Parts</button>
+            <button id="equipmentBtn" class="active">Equipment</button>
+        </div>
+    
+        <!-- 제품 목록 슬라이드 -->
+        <div class="product-carousel-wrapper">
+            <button class="carousel-control prev">&#9664;</button>
+            <div class="product-carousel">
+                <div class="product-container" id="productContainer"></div>
+            </div>
+            <button class="carousel-control next">&#9654;</button>
+        </div>
+    
+        <!-- 제품 상세 정보 -->
+        <div class="product-details">
+            <div class="product-features">
+                <h2>CDS</h2>
+                <h3>Chemical Delivery System</h3>
+                <div class="product-images">
+                    <img src="/eng/assets/img/product/그림8.png" alt="CDS">
+                </div>
+                <div class="product-content">
+                    <h2>Key Features</h2>
+                    <br>
+                    <p>• Equipment designed for cleaning processes in semiconductor manufacturing, used for cleaning slurries, particles, and other contaminants.</p><br/>
+                    <h2>Specification</h2><br>
+                    <p style="color:blue">A. Process Tank</p>
+                    <p>
+                        1) Material: PVDF or PTFE (Material properties determined based on the chemical)<br>
+                        2) Capacity: MAX 70 Liters<br>
+                        3) Quantity: 2 units<br>
+                        4) Temperature: PT-100Ω<br>
+                        5) N2 Line: Purge line with filter applied to minimize contamination                        
+                    </p><br>
+                    <p style="color:blue">B. Chemical Filter</p>
+                    <p>
+                        1) Material: PTFE<br>
+                        2) Filter selected based on the chemical
+                    </p><br>
+                    <p style="color:blue">C. Constant Temperature Bath & Heater</p>
+                    <p>
+                        1) Constant Temperature Bath: 25~30℃<br>
+                        2) Heater: Above 60℃
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="/eng/assets/js/include.js"></script>
+    <script src="/eng/assets/js/pages/product-equip.js"></script>
+</body>
+
+</html>

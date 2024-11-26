@@ -76,3 +76,37 @@ menuItems.forEach(item => {
         item.classList.toggle('active');
     });
 });
+
+
+/***************************************************** 
+ 
+            경로 동적 변경
+
+******************************************************/
+
+// 언어 전환 버튼들에 이벤트 리스너 등록
+const langButtons = document.querySelectorAll('#korButton, #engButton, #korLink, #engLink');
+langButtons.forEach((button) => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault(); 
+        const targetLang = event.target.id.includes('kor') ? 'kor' : 'eng';
+        switchLanguage(targetLang);
+    });
+});
+
+// 언어 경로 변경 함수
+function switchLanguage(targetLang) {
+    const currentUrl = window.location.pathname;
+    const pathParts = currentUrl.split('/');
+
+    // 언어 경로 변경
+    if (pathParts[1] === 'kor' || pathParts[1] === 'eng') {
+        pathParts[1] = targetLang; 
+    } else {
+        pathParts.splice(1, 0, targetLang);
+    }
+
+    const newPath = pathParts.join('/');
+    const newUrl = `${window.location.origin}${newPath}`; 
+    window.location.href = newUrl; 
+}

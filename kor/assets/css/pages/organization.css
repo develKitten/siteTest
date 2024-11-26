@@ -9,7 +9,7 @@
     padding-top: 300px;
     padding-right: 17%;
     padding-bottom: 40px;
-    background-image: url('../src/about.jpg');
+    background-image: url('/kor/assets/img/background/about.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -86,64 +86,5 @@
 
     .content p {
         font-size: 16px;
-    }
-}
-
-
-
-/************************************************
-
-                    아래 정보
-     
-*************************************************/
-
-.footer-section {
-    background-color: black;
-    padding: 50px;
-    color: white;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
-
-.footer-logo img {
-    width: 150px; 
-}
-
-.footer-info {
-    text-align: right;
-}
-
-.footer-info p {
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-
-@media screen and (max-width: 768px) {
-    .footer-section {
-        padding: 40px;
-    }
-
-    .footer-content {
-        display: block; 
-        text-align:left;
-    }
-    
-    .footer-logo {
-        margin-bottom: 15px;
-    }
-
-    .footer-info {
-        text-align:left;
-    }
-
-    .footer-info p {
-        margin: 5px 0;
     }
 }
