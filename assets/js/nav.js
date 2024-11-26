@@ -13,17 +13,17 @@ function updateNavbarStyle() {
         if (window.scrollY > 50) {
             lang.classList.add("scrolled");
             header.classList.add("scrolled");
-            logo.src = "/eng/assets/img/logo/semisol_logo.png"; // 스크롤 시 로고 변경
+            logo.src = "/assets/img/logo/semisol_logo.png"; // 스크롤 시 로고 변경
         } else {
             lang.classList.remove("scrolled");
             header.classList.remove("scrolled");
-            logo.src = "/eng/assets/img/logo/semisol_logo_white.png"; // 기본 로고
+            logo.src = "/assets/img/logo/semisol_logo_white.png"; // 기본 로고
         }
     } else {
         // 모바일 및 태블릿 화면 - 항상 흰색 배경과 특정 로고 유지
         header.classList.add("scrolled");
         lang.classList.add("scrolled");
-        logo.src = "/eng/assets/img/logo/semisol_logo.png";
+        logo.src = "/assets/img/logo/semisol_logo.png";
     }
 }
 
@@ -76,7 +76,6 @@ menuItems.forEach(item => {
         item.classList.toggle('active');
     });
 });
-
 
 
 /***************************************************** 

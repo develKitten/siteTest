@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMISOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="/assets/css/base/common.css" rel="stylesheet">
+    <link href="/assets/css/pages/product.css" rel="stylesheet">
+    <link href="/assets/css/layout/nav.css" rel="stylesheet">
+    <link href="/assets/css/layout/footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 네비게이션 -->
+    <div id="nav-container"></div>
+
+    <!-- 경로와 제목 표시 -->
+    <section class="breadcrumb">
+        <p>제품안내 &gt; 부품사업부</p>
+        <h1>제품안내</h1>
+    </section>
+
+    <!-- 본문 내용 -->
+    <div class="product-page-container">
+
+        <!-- 카테고리 전환 버튼 -->
+        <div class="category-switch">
+            <button id="partsBtn" class="active">부품사업부</button>
+            <button id="equipmentBtn">장비사업부</button>
+        </div>
+    
+        <!-- 제품 목록 슬라이드 -->
+        <div class="product-carousel-wrapper">
+            <button class="carousel-control prev">&#9664;</button>
+            <div class="product-carousel">
+                <div class="product-container" id="productContainer"></div>
+            </div>
+            <button class="carousel-control next">&#9654;</button>
+        </div>
+    
+        <!-- 제품 상세 정보 -->
+        <div class="product-details">
+            <div class="product-features">
+                <h2>PFA TUBE & Fitting</h2>
+                <h3></h3>
+                <div class="product-images">
+                    <img src="/assets/img/product/그림7.png" alt="PFA TUBE & Fitting">
+                </div>
+                <div class="product-content">
+                    <h2>특징</h2>
+                    <br>
+                    <p>• 반도체 장비의  약액라인 및 공압라인에서 사용되는 고순도  불소수지(테프론) 의 대표적인 PFA, PTFE의  재질의 TUBE  &  Fitting 의 생산 공급</p>
+                    <p style="color:rgb(2, 41, 150)">1) 배관의 규격의 호환  <br/>2) 각종 규격의 피팅의 호환  <br/>3) 고객의 요구 차수 선택</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/pages/product-parts.js"></script>
+</body>
+
+</html>

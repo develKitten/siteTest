@@ -55,49 +55,49 @@ const productData = [
     {
         category: "부품사업부",
         title: "Heat Exchanger & Chemical Circulator",
-        image: "/eng/assets/img/product/그림1.png",
+        image: "/assets/img/product/그림1.png",
         description: "향온조",
         detailsPage: "products/parts/01.html"
     },
     {
         category: "부품사업부",
         title: "IR Temp Sensor",
-        image: "/eng/assets/img/product/그림2.png",
+        image: "/assets/img/product/그림2.png",
         description: "IR Temp Sensor",
         detailsPage: "products/parts/02.html"
     },
     {
         category: "부품사업부",
         title: "High-Temp Flowmeter For Chemical",
-        image: "/eng/assets/img/product/그림3.png",
+        image: "/assets/img/product/그림3.png",
         description: "High-Temp Flowmeter For Chemical",
         detailsPage: "products/parts/03.html"
     },
     {
         category: "부품사업부",
         title: "MRM Valve",
-        image: "/eng/assets/img/product/그림4.png",
+        image: "/assets/img/product/그림4.png",
         description: "MRM Valve",
         detailsPage: "products/parts/04.html"
     },
     {
         category: "부품사업부",
         title: "FCV",
-        image: "/eng/assets/img/product/그림5.png",
+        image: "/assets/img/product/그림5.png",
         description: "Flow Control Valve & Liquid Flow Controller",
         detailsPage: "products/parts/05.html"
     },
     {
         category: "부품사업부",
         title: "Ultrasonic Liquid Flow Controller",
-        image: "/eng/assets/img/product/그림6.png",
+        image: "/assets/img/product/그림6.png",
         description: "초음파 유량계 제어기, 유량계 센서",
         detailsPage: "products/parts/06.html"
     },
     {
         category: "부품사업부",
         title: "PFA TUBE & Fitting",
-        image: "/eng/assets/img/product/그림7.png",
+        image: "/assets/img/product/그림7.png",
         description: "PFA TUBE & Fitting",
         detailsPage: "products/parts/07.html"
     }

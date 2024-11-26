@@ -3,77 +3,77 @@ const productData = [
     {
         category: "부품사업부",
         title: "Heat Exchanger & Chemical Circulator",
-        image: "/kor/assets/img/product/그림1.png",
+        image: "/assets/img/product/그림1.png",
         description: "향온조",
         detailsPage: "./01.html"
     },
     {
         category: "부품사업부",
         title: "IR Temp Sensor",
-        image: "/kor/assets/img/product/그림2.png",
+        image: "/assets/img/product/그림2.png",
         description: "IR Temp Sensor",
         detailsPage: "./02.html"
     },
     {
         category: "부품사업부",
         title: "High-Temp Flowmeter For Chemical",
-        image: "/kor/assets/img/product/그림3.png",
+        image: "/assets/img/product/그림3.png",
         description: "High-Temp Flowmeter For Chemical",
         detailsPage: "./03.html"
     },
     {
         category: "부품사업부",
         title: "MRM Valve",
-        image: "/kor/assets/img/product/그림4.png",
+        image: "/assets/img/product/그림4.png",
         description: "MRM Valve",
         detailsPage: "./04.html"
     },
     {
         category: "부품사업부",
         title: "FCV",
-        image: "/kor/assets/img/product/그림5.png",
+        image: "/assets/img/product/그림5.png",
         description: "Flow Control Valve & Liquid Flow Controller",
         detailsPage: "./05.html"
     },
     {
         category: "부품사업부",
         title: "Ultrasonic Liquid Flow Controller",
-        image: "/kor/assets/img/product/그림6.png",
+        image: "/assets/img/product/그림6.png",
         description: "초음파 유량계 제어기, 유량계 센서",
         detailsPage: "./06.html"
     },
     {
         category: "부품사업부",
         title: "PFA TUBE & Fitting",
-        image: "/kor/assets/img/product/그림7.png",
+        image: "/assets/img/product/그림7.png",
         description: "PFA TUBE & Fitting",
         detailsPage: "./07.html"
     },
     {
         category: "장비사업부",
         title: "CDS",
-        image: "/kor/assets/img/product/그림8.png",
+        image: "/assets/img/product/그림8.png",
         description: "Chemical Delivery System",
         detailsPage: "./08.html"
     },
     {
         category: "장비사업부",
         title: "WTR",
-        image: "/kor/assets/img/product/그림9.png",
+        image: "/assets/img/product/그림9.png",
         description: "WTR",
         detailsPage: "./09.html"
     },
     {
         category: "장비사업부",
         title: "EFEM",
-        image: "/kor/assets/img/product/그림10.png",
+        image: "/assets/img/product/그림10.png",
         description: "Equipment Front End Module",
         detailsPage: "./10.html"
     },
     {
         category: "장비사업부",
         title: "Cooling Unit",
-        image: "/kor/assets/img/product/그림11.png",
+        image: "/assets/img/product/그림11.png",
         description: "Cooling Unit",
         detailsPage: "./11.html"
     }
@@ -169,8 +169,8 @@ window.addEventListener("resize", () => {
 
 
 
-const partsURL = "/kor/products/parts/01.html"; 
-const equipmentURL = "/kor/products/equip/08.html";
+const partsURL = "/eng/products/parts/01.html"; 
+const equipmentURL = "/eng/products/equip/08.html";
 const partsBtn = document.getElementById('partsBtn');
 const equipmentBtn = document.getElementById('equipmentBtn');
 
